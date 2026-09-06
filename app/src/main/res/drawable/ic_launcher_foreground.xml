@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Translucent glass rounded squircle base (within 66dp safe-zone, 21-87 range) -->
+    <path
+        android:pathData="M38,24 L70,24 A14,14 0 0,1 84,38 L84,70 A14,14 0 0,1 70,84 L38,84 A14,14 0 0,1 24,70 L24,38 A14,14 0 0,1 38,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#66FFFFFF" />
+                <item android:offset="0.5" android:color="#2AFFFFFF" />
+                <item android:offset="1.0" android:color="#1AFFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass border reflection stroke -->
+    <path
+        android:pathData="M38,24 L70,24 A14,14 0 0,1 84,38 L84,70 A14,14 0 0,1 70,84 L38,84 A14,14 0 0,1 24,70 L24,38 A14,14 0 0,1 38,24 Z"
+        android:strokeWidth="1.5">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#CCFFFFFF" />
+                <item android:offset="0.5" android:color="#33FFFFFF" />
+                <item android:offset="1.0" android:color="#6680D8FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass diagonal refraction gleam -->
+    <path
+        android:pathData="M26,36 L68,25 L50,56 L25,48 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="25"
+                android:endX="50"
+                android:endY="56"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#40FFFFFF" />
+                <item android:offset="1.0" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized Bold Modern Facebook "f" Glyph in pure solid white -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M56,76 L56,54 L63,54 L64,46 L56,46 L56,41 C56,38.8 56.6,37.3 59.8,37.3 L64,37.3 L64,30.2 C63.3,30.1 60.8,29.9 57.9,29.9 C51.8,29.9 47.7,33.6 47.7,40.4 L47.7,46 L41,46 L41,54 L47.7,54 L47.7,76 L56,76 Z" />
+</vector>

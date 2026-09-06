@@ -1,0 +1,6 @@
+{
+  "name": "Facebook Glass",
+  "description": "A Facebook web browser featuring a High Density Liquid Glass interface, dynamic Facebook webpage background transparency over your wallpaper, floating navigation toolbar, and custom content filtering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
